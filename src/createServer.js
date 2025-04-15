@@ -35,7 +35,7 @@ function createServer() {
       });
     }
 
-    let conversion;
+    let conversion = {};
 
     if (searchKey === 'toCase' && searchValue) {
       try {
